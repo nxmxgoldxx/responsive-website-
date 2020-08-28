@@ -5,13 +5,7 @@
 
 
 html {
-height: 100%;
-width: 100%;
 font-size:16px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-flow: row wrap;
 }
 
 body {
@@ -20,7 +14,7 @@ font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 display: flex;
 justify-content: center;
 align-items: center;
-flex-flow: row wrap;
+
 }
 
 .container{
@@ -30,73 +24,47 @@ flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	
+
 }
 
-.header h1,h2,h3,h4 {
+ h1,h2,h3,h4 {
 	color: black;
 	text-transform: uppercase;
 	font-weight: 700;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-}
-
-h1 {
-	font-size: 3em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 
 }
 
-h2 {
-	font-size: 2em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-
-}
-
-h3 {
-	font-size: 1em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-
-}
-
-h4 {
-	font-size: .5em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-
-}
 
 p {
-	font-size: .3em;
-	line-height: 1.2em;
-    padding: 0 .3em;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-flow: row wrap;
+	font-size: .875em;
+	line-height: 21px;
+
+}
+
+
+ul {
+	margin: 0;
+
 }
 
 header {
-	height: 50%;
+	width: 100%;
 	border-bottom: 3px solid #77a466;
-	/* margin: 0 auto; */
+	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+}
+
+
+header h1 {
+    font-size: 1.875em;
+	margin: 0;
+    padding: 38px 20px 20px 20px;
+    border-bottom: 3px solid #77a466;
+		    width: 100%;
+
 }
 
 header h1 span {
@@ -106,159 +74,101 @@ header h1 span {
 
 header nav {
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+	padding: 20px 0;
+	width: 100%;
 
 }
 
 header nav ul {
 	margin: 0;
 	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+
 }
 
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: .4em;
+	font-size: .875em;
 	padding: 0 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+  list-style: none;
 }
 
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+
+
 
 }
 
 .top-section,
 .bottom-section {
 	/* margin: 0 auto; */
-	clear: both;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
 }
 
-.main-image {
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 }
 .main-image img {
+  width: 100%;
 	border-bottom: 3px solid #77a466;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-}
-
-.main-title {
-	height: auto;
-	float: left;
-
 
 }
+
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
 	color: #77a466;
+	font-size: 1.125em;
 
 }
+
 .main-title p {
 	padding: 0;
-	font-size: 16px;
-	line-height: 25px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+	font-size: 1em;
+	line-height: 1.5625;
 
 }
 
 .section-one,
 .section-two,
 .section-three {
-	width: 32em;
-	height: 100$;
-	float: left;
+	width: 100%;
 	border-top: 1px solid #eee;
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 
 }
 
 
-.section-one h4,.section-two h4,
-.section-three h4  {
-	padding: 10px 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-}
 
 .menu {
 	list-style: none;
 	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+
 }
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+
 }
 
 .reviews {
 	color: #333;
-	font-size: 16px;
-	line-height: 21px
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+	font-size: 1em;
+	line-height: 1.3125;
+
 }
 
 .address {
-	font-size: 16px;
-	line-height: 24px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+	font-size: 1em;
+	line-height: 1.5;
 }
 
 footer {
-	height: 50px;
 	border-top: 3px solid #eee;
-	margin: 0 auto;
-	clear: both;
 	text-align: center;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -268,5 +178,54 @@ footer span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 14px;
+	font-size: .875em;
 }
+
+@media ony screen and (min-width:768px) {
+    /* Tablet styles here */
+
+		.bottom-section {
+			ustify-content: space-between;
+			align-items: flex-start;
+			border-top: 1px solid #eee;
+
+		}
+		.section-one,
+		.section-two,
+		.section-three {
+				border-top: none;
+				flex-basis: 30%;
+		}
+
+		.section-two {
+				border-left: 1px solid #eee;
+				border-right: 1px solid #eee;
+				padding: 0 20px;
+		}
+}
+
+
+ @media only screen and (min-width: 1200px) {
+
+
+	 	  /* Desktop styles here */
+	   header {
+         justify-content: space-between;
+     }
+
+     header h1 {
+         width: 30%;
+         padding: 0;
+         border-bottom: none;
+         text-align: left;
+     }
+
+     header nav {
+         width: 40%;
+     }
+
+     header nav ul {
+         display: flex;
+         justify-content: space-between;
+     }
+ }
