@@ -5,6 +5,7 @@
 
 
 html {
+
 font-size:16px;
 }
 
@@ -17,9 +18,9 @@ align-items: center;
 
 }
 
-.container{
+.container {
 	max-width: 1200px;
-	width: 90$;
+	width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -110,7 +111,7 @@ header nav ul li a{
 	flex-flow: row wrap;
 }
 
-}
+
 .main-image img {
   width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -181,11 +182,11 @@ footer span {
 	font-size: .875em;
 }
 
-@media ony screen and (min-width:768px) {
+@media only screen and (min-width:768px) {
     /* Tablet styles here */
 
 		.bottom-section {
-			ustify-content: space-between;
+			justify-content: space-between;
 			align-items: flex-start;
 			border-top: 1px solid #eee;
 
@@ -204,28 +205,16 @@ footer span {
 		}
 }
 
+@media only screen and (min-width: 1200px) {
 
- @media only screen and (min-width: 1200px) {
 
-
-	 	  /* Desktop styles here */
 	   header {
+				 display: flex;
          justify-content: space-between;
-     }
-
-     header h1 {
-         width: 30%;
+				 width: 30%;
          padding: 0;
          border-bottom: none;
          text-align: left;
      }
 
-     header nav {
-         width: 40%;
-     }
-
-     header nav ul {
-         display: flex;
-         justify-content: space-between;
-     }
- }
+	 }
